@@ -11,5 +11,6 @@ console.log(`The new population of India is ${population} Billion`);
 console.log(population > 0.06);
 console.log(population < 0.33);
 population=(population-1).toFixed(2);
+
 const description =  `${country} is in ${continent}, and its ${population} Billion population speaks ${language}.`;
 console.log(description);
