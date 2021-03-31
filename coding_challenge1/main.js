@@ -21,5 +21,10 @@ const data2 = {
 let markHigherBMI_case1 = BMI(data1.mark_mass, data1.mark_height) > BMI(data1.john_mass, data1.john_height);
 let markHigherBMI_case2 = BMI(data2.mark_mass, data2.mark_height) > BMI(data2.john_mass, data2.john_height);
 
-console.log(`For data set 1 - is Mark's BMI is higher than John's? Ans: ${markHigherBMI_case1}`);
-console.log(`For data set 2 - is Mark's BMI is higher than John's? Ans: ${markHigherBMI_case2}`);
+console.log(`====================================================================================`)
+console.log(`For data set 1\nMark's BMI: ${BMI(data1.mark_mass, data1.mark_height).toFixed(2)}\nJohn's BMI: ${BMI(data1.john_mass, data1.john_height).toFixed(2)}`)
+console.log(`Is Mark's BMI higher than John's? \nAnswer: ${markHigherBMI_case1}`);
+console.log(`====================================================================================`)
+console.log(`For data set 2\nMark's BMI: ${BMI(data2.mark_mass, data2.mark_height).toFixed(2)}\nJohn's BMI: ${BMI(data2.john_mass, data2.john_height).toFixed(2)}`)
+console.log(`Is Mark's BMI higher than John's? \nAnswer: ${markHigherBMI_case2}`);
+console.log(`====================================================================================`)
