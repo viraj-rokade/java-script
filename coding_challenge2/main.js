@@ -32,11 +32,11 @@ dataBonus1 = {
     koalas: [109,95,123]
 }
 
-if(average(dataBonus1.dolphins)>average(dataBonus1.koalas) && average(dataBonus1.dolphins)>100){
+if(average(dataBonus1.dolphins)>average(dataBonus1.koalas) && average(dataBonus1.dolphins)>=100){
     console.log(`The winner of this competition is team Dolphins with average score of ${average(dataBonus1.dolphins)} points!`);
-}else if(average(dataBonus1.dolphins)<average(dataBonus1.koalas) && average(dataBonus1.koalas)>100){
+}else if(average(dataBonus1.dolphins)<average(dataBonus1.koalas) && average(dataBonus1.koalas)>=100){
     console.log(`The winner of this competition is team Koalas with average score of ${average(dataBonus1.koalas)} points!`);
-}else if(average(dataBonus1.dolphins)==average(dataBonus1.koalas)  && average(dataBonus1.koalas)>100){
+}else if(average(dataBonus1.dolphins)==average(dataBonus1.koalas)  && average(dataBonus1.koalas)>=100){
     console.log(`It's a draw between team Dolphins and team Koalas with both having average score of ${average(dataBonus1.dolphins)} points!`);
 }else {
     console.log(`Nobody wins as the average scores are below minimum average requirement of 100 points!`)
@@ -51,11 +51,11 @@ dataBonus2 = {
     koalas: [109,95,106]
 }
 
-if(average(dataBonus2.dolphins)>average(dataBonus2.koalas) && average(dataBonus2.dolphins)>100){
+if(average(dataBonus2.dolphins)>average(dataBonus2.koalas) && average(dataBonus2.dolphins)>=100){
     console.log(`The winner of this competition is team Dolphins with average score of ${average(dataBonus2.dolphins)} points!`);
-}else if(average(dataBonus2.dolphins)<average(dataBonus2.koalas) && average(dataBonus2.koalas)>100){
+}else if(average(dataBonus2.dolphins)<average(dataBonus2.koalas) && average(dataBonus2.koalas)>=100){
     console.log(`The winner of this competition is team Koalas with average score of ${average(dataBonus2.koalas)} points!`);
-}else if(average(dataBonus2.dolphins)==average(dataBonus2.koalas)  && average(dataBonus2.koalas)>100){
+}else if(average(dataBonus2.dolphins)==average(dataBonus2.koalas)  && average(dataBonus2.koalas)>=100){
     console.log(`It's a draw between team Dolphins and team Koalas with both having average score of ${average(dataBonus2.dolphins)} points!`);
 }else {
     console.log(`Nobody wins as the average scores are below minimum average requirement of 100 points!`)
